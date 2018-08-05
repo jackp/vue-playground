@@ -1,9 +1,12 @@
 # vue-playground
+Common patterns and features used when developing Vue.JS applications.
 
-## Project setup
+## Setup
 ```
 yarn install
 ```
+
+## Scripts
 
 ### Compiles and hot-reloads for development
 ```
