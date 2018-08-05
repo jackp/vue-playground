@@ -1,3 +1,9 @@
 /* Vendor Styles */
 
 @import "buefy/lib/buefy.css";
+/* Layout */
+
+html,
+body {
+  height: 100%;
+}

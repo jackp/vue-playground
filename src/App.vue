@@ -1,12 +1,35 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link>
-    </div>
-    <router-view/>
+    <main-navigation />
+    <main>
+      <router-view/>
+    </main>
   </div>
 </template>
 
-<style>
+<script>
+import MainNavigation from "@/components/organisms/MainNavigation.vue";
+
+export default {
+  name: "App",
+  components: {
+    MainNavigation
+  }
+};
+</script>
+
+
+<style global>
 @import "./styles/global.css";
+</style>
+
+<style scoped>
+#app {
+  height: 100%;
+  display: flex;
+}
+
+main {
+  flex: 1;
+}
 </style>
