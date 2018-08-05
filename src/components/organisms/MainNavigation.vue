@@ -11,7 +11,7 @@
         <router-link to="/routing">Routing</router-link>
         <ul>
           <li>
-            <a>Basic Linking</a>
+            <router-link to="/routing">Basic Linking</router-link>
           </li>
           <li>
             <a>Authentication Flow</a>

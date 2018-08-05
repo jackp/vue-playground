@@ -2,6 +2,7 @@ import Vue from "vue";
 import Router from "vue-router";
 import Home from "./components/pages/Home.vue";
 import Routing from "./components/pages/Routing.vue";
+import RoutingBasic from "./components/pages/RoutingBasic.vue";
 
 Vue.use(Router);
 
@@ -17,7 +18,13 @@ export default new Router({
     },
     {
       path: "/routing",
-      component: Routing
+      component: Routing,
+      children: [
+        {
+          path: "",
+          component: RoutingBasic
+        }
+      ]
     }
   ]
 });
