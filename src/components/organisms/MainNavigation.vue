@@ -1,9 +1,14 @@
 <template>
   <nav class="menu">
+    <ul class="menu-list">
+      <li>
+        <router-link to="/">Home</router-link>
+      </li>
+    </ul>
     <p class="menu-label">Examples</p>
     <ul class="menu-list">
       <li>
-        <router-link to="/">Routing</router-link>
+        <a>Routing</a>
         <ul>
           <li>
             <a>Basic Linking</a>
