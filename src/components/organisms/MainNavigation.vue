@@ -8,7 +8,7 @@
     <p class="menu-label">Examples</p>
     <ul class="menu-list">
       <li>
-        <a>Routing</a>
+        <router-link to="/routing">Routing</router-link>
         <ul>
           <li>
             <a>Basic Linking</a>
